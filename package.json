@@ -24,9 +24,9 @@
     "update": "ng update --all --allow-dirty"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.800.3",
-    "@angular/cli": "8.1.1",
-    "@angular/compiler-cli": "8.0.0",
+    "@angular-devkit/build-angular": "~0.10.0",
+    "@angular/cli": "~7.0.2",
+    "@angular/compiler-cli": "~7.0.0",
     "@angular/language-service": "~7.0.0",
     "@types/node": "~8.9.4",
     "@types/jasmine": "~2.8.8",
@@ -42,6 +42,6 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": ">=3.4.0 and <3.5.0"
+    "typescript": "~3.1.1"
   }
 }
