@@ -1,6 +1,6 @@
 applications:
-- name: forthangularapp
+- name: fifthangularapp
   buildpacks: nodejs-buildpack
-  host: forthangularapp
+  host: fifthangularapp
   memory: 32M
   path: dist/demo
