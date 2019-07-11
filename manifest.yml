@@ -1,6 +1,6 @@
 applications:
 - name: fifthangularapp
-  buildpacks: nodejs-buildpack
+  buildpacks: staticfile_buildpack
   host: fifthangularapp
   memory: 32M
   path: dist/demo
