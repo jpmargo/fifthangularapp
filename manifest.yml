@@ -1,7 +1,8 @@
 ---
 applications:
 - name: fifthangularapp
-  buildpack: staticfile_buildpack
+  buildpack:
+  - https://github.com/cloudfoundry/staticfile-buildpack.git
   host: fifthangularapp
   memory: 32M
   path: dist/demo
