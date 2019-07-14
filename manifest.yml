@@ -1,7 +1,7 @@
 ---
 applications:
 - name: fifthangularapp
-  buildpack:
+  buildpacks:
   - https://github.com/cloudfoundry/staticfile-buildpack.git
   host: fifthangularapp
   memory: 32M
